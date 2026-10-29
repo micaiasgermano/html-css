@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* 
+        # é usado para selecionar elementos pelo id
+        . é usado para selecionar elementos pela classe
+        */
+        body {
+            font-family:helvetica, sans-serif;
+            background-color: #e6fff0;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            color: #630000;
+        }
+        a {
+            color: #006600;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: #001d00;
+        }
+        a:hover {
+            color: #00b800;
+            text-decoration:underline
+        }
+        a::after {
+            content: " abre em nova aba";
+            font-size: 0.8em;
+            color: #2c1111;
+        }
+        .especial {
+            color: #2c1111;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+<h1>Links</h1>
+    <ul>
+        <li><a href="https://www.google.com" target="_blank">Google</a></li>
+        <li><a href="https://www.wikipedia.org" class="especial">Wikipedia</a></li>
+        <li><a href="https://www.github.com">GitHub</a></li>
+    </ul>
+</body>
+</html>
